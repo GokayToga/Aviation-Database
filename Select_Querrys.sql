@@ -10,7 +10,19 @@
 -- [ ] Sort by Job Title (employee)
 -- [ ] Sort by Number of flights (employee)
 -- [ ] Sort by Total Flight Hours (employee)
+-- Sort by Airplane ID (plane)
+-- Sort by Airplane Type (plane)
+-- Sort by Airport Name (airport)
+-- Sort by Airport Capacity (airport)
+-- Sort by Airport Location (airport) (bilemedim sort mu filter mı ikisi de mi hiçbiri mi fikri olan el atsın)
+-- Sort by Passenger ID (passenger)
+-- Sort by Passenger Name (passenger)
+-- Sort by Passenger Surname (passenger)
+-- Sort by Passenger Age (passenger)
+-- Filter by Passenger Gender (passenger)
 
+
+-- [ ] Sort by ID (employee) 
 SELECT *
 FROM FlightCompany.Employee A
 ORDER BY A.Employee_ID;
@@ -18,6 +30,7 @@ ORDER BY A.Employee_ID;
 SELECT *
 FROM FlightCompany.Employee A
 ORDER BY A.Employee_ID ASC;
+
 
 SELECT A.Employee_Name
 FROM FlightCompany.Employee A
