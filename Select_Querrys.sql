@@ -1,4 +1,4 @@
---Filtrelemelerde bir string commandi alıp onun bulunduğu sonuçları getirecek kodlar lazım.
+-- Filtrelemelerde bir string commandi alıp onun bulunduğu sonuçları getirecek kodlar lazım.
 
 -- [ ] Filter Flights by Airport Location
 -- [ ] Filter Flights by Airport Name
