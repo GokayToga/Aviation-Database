@@ -103,7 +103,7 @@ SELECT *
 FROM FlightCompany.Employee A
 ORDER BY A.Num_of_Flights;
 
--- [ ] Sort by Total Flight Hours (employee)
+-- [ ] Sort by Total Flight sHours (employee)
 SELECT *
 FROM FlightCompany.Employee A
 ORDER BY A.Total_Flight_Hours;
