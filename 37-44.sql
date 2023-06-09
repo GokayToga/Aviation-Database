@@ -227,7 +227,7 @@ LEFT OUTER JOIN FlightCompany.Flights F ON P.Passenger_Flight_ID = F.Flight_ID;
 ALTER TABLE FlightCompany.Passenger
 ADD COLUMN Contact_Email VARCHAR(50);
 
--- one row operation
+-- Takes every passenger with id = 1 (one row operation)
 SELECT *
 FROM FlightCompany.Passenger
 WHERE Passenger_ID = 1;
