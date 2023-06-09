@@ -226,3 +226,14 @@ LEFT OUTER JOIN FlightCompany.Flights F ON P.Passenger_Flight_ID = F.Flight_ID;
 -- DONT RUN THIS FOR NOW Add a new column called "Contact_Email" to the Passenger table.
 ALTER TABLE FlightCompany.Passenger
 ADD COLUMN Contact_Email VARCHAR(50);
+
+-- one row operation
+SELECT *
+FROM FlightCompany.Passenger
+WHERE Passenger_ID = 1;
+
+-- Retrieve the list of flights that depart from the United States. (multiple row operation)
+SELECT *
+FROM FlightCompany.Flights
+JOIN FlightCompany.Airport ON Flights.Departure_Airport = Airport.Airport_Name
+WHERE Airport.Location_Country = 'United States';
